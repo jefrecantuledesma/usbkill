@@ -5,3 +5,6 @@ build-backend = "hatchling.build"
 [project]
 name = "usbkill"
 dynamic = ["version"]
+
+[tool.hatch]
+version = "0.0.0"
