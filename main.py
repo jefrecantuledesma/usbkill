@@ -3,7 +3,7 @@ import pyudev
 import subprocess
 
 def device_event(observer, device):
-    action = device.action()
+    action = device.action
     if action == "add":
         print(f"USB Device Plugged In: {device}")
         power_off()
